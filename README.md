@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-Little description of what the neuron does.
+Get a random quote from an online collection of quotations by authors, celebrities, and newsmakers.
 
 ## Installation
 ```bash
@@ -35,7 +35,7 @@ Get a random quote and his author
 ```
 
 The neuron only return sentence in english. If you have installed the [translate neuron](https://github.com/Ultchad/kalliope_neuron_translate), you can use it like the following to get a direct translation.
-```
+```yml
 - name: "quote"
   signals:
     - order: "give me a quote"
